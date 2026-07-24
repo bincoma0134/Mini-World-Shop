@@ -8,7 +8,7 @@ ENVIRONMENT = "production"
 [[d1_databases]]
 binding = "DB"
 database_name = "miniworld-db-prod"
-database_id = "<ĐIỀN_DATABASE_ID_CỦA_PROD_VÀO_ĐÂY>"
+database_id = "0ed9b08c-d179-4aeb-bd8b-883befe7970b"
 
 [[r2_buckets]]
 binding = "ASSETS_BUCKET"
@@ -21,7 +21,7 @@ ENVIRONMENT = "development"
 [[env.development.d1_databases]]
 binding = "DB"
 database_name = "miniworld-db-dev"
-database_id = "<ĐIỀN_DATABASE_ID_CỦA_DEV_VÀO_ĐÂY>"
+database_id = "4bd03fe6-3672-41fc-bb56-b014bcc0d098"
 
 [[env.development.r2_buckets]]
 binding = "ASSETS_BUCKET"
