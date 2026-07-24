@@ -1,0 +1,28 @@
+name = "miniworld-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "miniworld-db-prod"
+database_id = "<ĐIỀN_DATABASE_ID_CỦA_PROD_VÀO_ĐÂY>"
+
+[[r2_buckets]]
+binding = "ASSETS_BUCKET"
+bucket_name = "miniworld-assets"
+
+[env.development]
+[env.development.vars]
+ENVIRONMENT = "development"
+
+[[env.development.d1_databases]]
+binding = "DB"
+database_name = "miniworld-db-dev"
+database_id = "<ĐIỀN_DATABASE_ID_CỦA_DEV_VÀO_ĐÂY>"
+
+[[env.development.r2_buckets]]
+binding = "ASSETS_BUCKET"
+bucket_name = "miniworld-assets-dev"
